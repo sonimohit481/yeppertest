@@ -38,7 +38,7 @@ export const Todo = () => {
           />
         ))}
       <button onClick={() => setshow(!show)}>
-        {show ? "show undone" : "show all"}
+        {show ? "UnComplete" : "Show all"}
       </button>
     </div>
   );
